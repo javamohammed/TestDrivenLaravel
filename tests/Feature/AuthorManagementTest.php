@@ -12,7 +12,7 @@ class AuthorManagementTest extends TestCase
 {
     use RefreshDatabase;
     /** @test */
-    public function an_anthor_can_be_created(){
+    public function an_author_can_be_created(){
         $this->withoutExceptionHandling();
         $this->post('/author', [
             'name' => 'Mido',
